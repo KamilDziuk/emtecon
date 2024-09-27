@@ -26,6 +26,7 @@
     width: 100%;
     height: 100%;
     position: absolute;
+    
 }
 
 .backgroundsFilter {
@@ -79,7 +80,7 @@
 }
 
 .mainSlideContender .contenderTitle {
-    top: 60%;
+    top: 67%;
     position: absolute;
     width: 50%;
     height: 200px;
@@ -93,6 +94,7 @@
     width: 100%;
     position: relative;
     height: 200px;
+   
 }
 
 .mainSlideContender .contenderTitle .titleBox .block {
@@ -103,6 +105,7 @@
     animation: mainBlock 2s cubic-bezier(0.74, 0.06, 0.4, 0.92) forwards;
     display: flex;
     backdrop-filter: blur(15px);
+    
 }
 
 .mainSlideContender .contenderTitle .titleBox .text {
@@ -121,6 +124,7 @@
     backdrop-filter: blur(15px);
     align-items: baseline;
     position: relative;
+  ;
 }
 
 .arrows {
@@ -140,9 +144,7 @@
     display: block;
 }
 
-.leftMobile, .rightMobile {
-    display: none;
-}
+
 @media (max-width: 900px) {
 
     .mainSlideContender .contenderTitle .titleBox .text {
@@ -187,18 +189,11 @@
     .arrow--left, .arrow--right {
         display: none;
     }
-    .leftMobile, .rightMobile {
-        display: block;
-        background-color: #0089f100;
-        border: none;
-    }
+
     .arrow {
         background-color: #ff000000;
     }
-    #arrowMobile {
-        z-index: 999;
-        background-color: #ffffff00;
-    }
+
     .backgroundsFilter {
         background-color: #00000098;
     }

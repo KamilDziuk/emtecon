@@ -75,8 +75,7 @@ elementBackgrounds.style.transform = `translateX(${(d-index2) *100}%)`;
 let left = document.querySelector(".leftbs");
 let right = document.querySelector(".rightbs");
 
-let leftMobile = document.querySelector(".leftMobile");
-let rightMobile = document.querySelector(".rightMobile");
+
 
 
 muvingBlockLeft = () => 
@@ -121,20 +120,6 @@ muvingBlockRight = () =>
    }
 
 
-leftMobile.addEventListener("click", () => {
-
-
-   muvingBlockLeft();
-   textAnimation();
-  
-});
-
-rightMobile.addEventListener("click", () => {
-
-   muvingBlockRight();
-   textAnimation();
-
-});
 
 
 
@@ -177,17 +162,5 @@ left.addEventListener("mousemove", () => {
 
 })
 
-rightMobile.addEventListener("mousemove", () => {
-   
-
-
-})
-
-
-
-leftMobile.addEventListener("mousemove", () => {
-
-
-})
 
 
