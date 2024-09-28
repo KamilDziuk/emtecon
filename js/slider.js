@@ -163,4 +163,18 @@ left.addEventListener("mousemove", () => {
 })
 
 
+let meter = document.querySelector(".meter");
+let numbers = 0
 
+const showMeter = setInterval( ()=>
+{
+   
+   numbers ++ 
+
+   if(numbers == 100)
+   {
+clearTimeout(showMeter)
+   }
+
+   meter.innerHTML = `Zaufało nam ${numbers} firm`;
+},40)
