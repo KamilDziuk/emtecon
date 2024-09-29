@@ -178,3 +178,4 @@ clearTimeout(showMeter)
 
    meter.innerHTML = `Zaufało nam ${numbers} firm`;
 },40)
+
