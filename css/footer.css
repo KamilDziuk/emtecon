@@ -1,6 +1,8 @@
 footer
 {
+	
 	position:relative;
+
 	display:flex !important;
 	flex-wrap:wrap;
 	margin-top:auto;

@@ -94,7 +94,7 @@
     width: 100%;
     position: relative;
     height: 200px;
-   
+ 
 }
 
 .mainSlideContender .contenderTitle .titleBox .block {
@@ -116,6 +116,7 @@
     background-color: rgba(255, 255, 255, 0.15);
     font-size: 35px;
     font-weight: 400;
+    padding-top: 8%;
     padding-left: 2%;
     padding-right: 2%;
     animation: mainFadeIn 2s forwards;
@@ -124,8 +125,16 @@
     backdrop-filter: blur(15px);
     align-items: baseline;
     position: relative;
-  ;
+  
 }
+
+.text {
+    display: flex;
+
+
+}
+
+
 
 .arrows {
     display: flex;
@@ -184,6 +193,7 @@
 @media (max-width: 450px) {
 
     .mainSlideContender .contenderTitle .titleBox .text {
+        padding-top:8%;
         font-size: 15px;
     }
     .arrow--left, .arrow--right {

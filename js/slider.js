@@ -4,6 +4,7 @@ let image = document.querySelectorAll(".image");
 let imageBackgrounds = document.querySelectorAll(".imageBackgrounds");
 let contendeImages = document.querySelectorAll(".contendeImages");
 let text = document.querySelectorAll(".text");
+
 let arrowLeft = document.querySelector(".arrow--left");
 let arrowRight = document.querySelector(".arrow--right");
 let mainSlideContender = document.querySelector(".mainSlideContender");
@@ -20,7 +21,7 @@ image.forEach(element => {
 let x = e.clientX / 170;
 let y = e.clientY / 70;
 element.style.transform = "translateX("+ x + "px) translateY("+ y + "px)";
-element.style.transition = "transform 0.2s ease";
+element.style.transition = "transform 0.1s ease";
 
 });
 
@@ -164,6 +165,10 @@ left.addEventListener("mousemove", () => {
 
 
 let meter = document.querySelector(".meter");
+meter.style.color = "#c7c7c7";
+
+meter.style.paddingLeft = "1%";
+meter.style.paddingRight = "1%";
 let numbers = 0
 
 const showMeter = setInterval( ()=>
@@ -176,6 +181,8 @@ const showMeter = setInterval( ()=>
 clearTimeout(showMeter)
    }
 
-   meter.innerHTML = `Zaufało nam ${numbers} firm`;
+   meter.innerHTML = `<b> ${numbers}</b> `;
+
+  
 },40)
 

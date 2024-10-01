@@ -7,75 +7,90 @@ document.querySelector(".mobile").addEventListener("click", () =>
 
   document.querySelector(".desktop").classList.toggle("show");
 });
-let scroll = window.pageYOffset;
-const textContaktButtom = document.querySelector(".textContaktButtom")
-bottomCounter = () =>
+
+
+let one = document.querySelector(".one");
+let two = document.querySelector(".two");
+let three = document.querySelector(".three");
+let contaktImage = document.querySelector(".contaktImage");
+
+
+
+one.addEventListener("mousemove", () =>
 {
-
-let  number1 = 0;
-let  number2 = 0;
-let  number3 = 0;
-
-const counter = setInterval(() =>{
-number1 ++;
-
-
-if( number1 == 100)
-    {
-    clearTimeout(counter);
-    }
-
-},50);
-
-const counter2 = setInterval(() =>{
-
-    number2 ++;
-
-
-        if( number2 == 150)
-            {
-            clearTimeout(counter2);
-            }
-       
-    },50);
-
     
+    contaktImage.style.background = "url(/image/mainImage3.webp) center";
+    contaktImage.style.height = '85%';
+    contaktImage.style.width = '100%';
 
-    const counter3 = setInterval(() =>{
-
-        number3 ++;
-    
-     
-                if( number3 == 123)
-                    {
-                    clearTimeout(counter3);
-                    }
-                    
-                    textContaktButtom.innerHTML = `Zadowoleni klienci: ${number1} Wykonane projekty: ${number2}  Partnerzy biznesowi: ${number3}  `;
-        },50);
-        
-    
-};
-window.addEventListener("scroll", () => {
-itemLocation = () => {
-
-
-
-
-
-
-if(scroll >= textContaktButtom.offsetTop  ){
-    bottomCounter();
-}
-else
-{
-
-}
-
-
-
-
-};
-itemLocation();
+    contaktImage.style.backgroundSize = 'cover';
+    contaktImage.style.backgroundAttachment = 'fixed';
+    contaktImage.style.transition = '.5s ease-out';
+    contaktImage.style.flexDirection = 'column';
 });
 
+two.addEventListener("mousemove", () =>
+    {
+        
+        contaktImage.style.background = "url(/image/mainImage4.webp) center";
+        contaktImage.style.height = '85%';
+        contaktImage.style.width = '100%';
+    
+        contaktImage.style.backgroundSize = 'cover';
+        contaktImage.style.backgroundAttachment = 'fixed';
+        contaktImage.style.transition = '.5s ease-out';
+        contaktImage.style.flexDirection = 'column';
+    });
+
+    three.addEventListener("mousemove", () =>
+        {
+            
+          
+            contaktImage.style.background = "url(/image/mainImage5.webp) center";
+            contaktImage.style.height = '85%';
+            contaktImage.style.width = '100%';
+        
+            contaktImage.style.backgroundSize = 'cover';
+            contaktImage.style.backgroundAttachment = 'fixed';
+            contaktImage.style.transition = '.5s ease-out';
+            contaktImage.style.flexDirection = 'column';
+        });
+
+        two.addEventListener("mouseleave", () =>
+            {
+                contaktImage.style.height = '85%';
+                contaktImage.style.width = '100%';
+                contaktImage.style.background = 'url(/image/contaktImage.webp) center';
+                contaktImage.style.backgroundSize = 'cover';
+                contaktImage.style.backgroundAttachment = 'fixed';
+                contaktImage.style.flexDirection = 'column';
+             
+                
+            });
+            three.addEventListener("mouseleave", () =>
+                {
+                    contaktImage.style.height = '85%';
+                    contaktImage.style.width = '100%';
+                    contaktImage.style.background = 'url(/image/contaktImage.webp) center';
+                    contaktImage.style.backgroundSize = 'cover';
+                    contaktImage.style.backgroundAttachment = 'fixed';
+                    contaktImage.style.flexDirection = 'column';
+                
+         
+                });
+    
+                
+                one.addEventListener("mouseleave", () =>
+                    {
+                        contaktImage.style.height = '85%';
+                        contaktImage.style.width = '100%';
+                        contaktImage.style.background = 'url(/image/contaktImage.webp) center';
+                        contaktImage.style.backgroundSize = 'cover';
+                        contaktImage.style.backgroundAttachment = 'fixed';
+                        contaktImage.style.flexDirection = 'column';
+                
+             
+                    });
+            
+
+        
