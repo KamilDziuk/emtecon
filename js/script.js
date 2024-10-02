@@ -32,7 +32,7 @@ one.addEventListener("mousemove", () =>
 two.addEventListener("mousemove", () =>
     {
         
-        contaktImage.style.background = "url(/image/mainImage4.webp) center";
+        contaktImage.style.background = "url(/image/visualization35.webp) center";
         contaktImage.style.height = '85%';
         contaktImage.style.width = '100%';
     
@@ -46,7 +46,7 @@ two.addEventListener("mousemove", () =>
         {
             
           
-            contaktImage.style.background = "url(/image/mainImage5.webp) center";
+            contaktImage.style.background = "url(/image/visualization34.webp) center";
             contaktImage.style.height = '85%';
             contaktImage.style.width = '100%';
         
@@ -60,7 +60,7 @@ two.addEventListener("mousemove", () =>
             {
                 contaktImage.style.height = '85%';
                 contaktImage.style.width = '100%';
-                contaktImage.style.background = 'url(/image/contaktImage.webp) center';
+                contaktImage.style.background = 'url(/image/visualization36.webp) center';
                 contaktImage.style.backgroundSize = 'cover';
                 contaktImage.style.backgroundAttachment = 'fixed';
                 contaktImage.style.flexDirection = 'column';
@@ -71,7 +71,7 @@ two.addEventListener("mousemove", () =>
                 {
                     contaktImage.style.height = '85%';
                     contaktImage.style.width = '100%';
-                    contaktImage.style.background = 'url(/image/contaktImage.webp) center';
+                    contaktImage.style.background = 'url(/image/visualization38.webp) center';
                     contaktImage.style.backgroundSize = 'cover';
                     contaktImage.style.backgroundAttachment = 'fixed';
                     contaktImage.style.flexDirection = 'column';

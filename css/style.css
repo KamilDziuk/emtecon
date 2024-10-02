@@ -37,6 +37,11 @@ a
     z-index: 2;
 }
 
+.logoAndText
+{
+	width: 150px
+}
+
 .secondText {
     position: relative;
     color: #ffffff;
@@ -249,7 +254,12 @@ left: 7%;
 }
 
 @media (max-width: 600px) {
+	.textOffer
+	{
+	
+		width: 95%;
 
+	}
 	.contaktButtom
 	{
 		position: relative;
@@ -308,7 +318,7 @@ left: 7%;
         font-size: 20px;
     }
     .mainText {
-        font-size: 20px;
+        font-size: 35px;
     }
     .containerMainText {
         position: absolute;
@@ -330,7 +340,6 @@ left: 7%;
     }
 
 }
-
 
 
 

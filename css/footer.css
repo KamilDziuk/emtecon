@@ -277,10 +277,9 @@ ul li a:hover
 
 .footer3DLogo
 {
-	margin-top:10%;
+	margin-top:20%;
 	margin-bottom:0%;
-
-	font-size: 40px;
+	width: 250px;
 }
 
 #map
@@ -365,4 +364,11 @@ ul li a:hover
 	{
 		width:100%
 	}
+
+	.footer3DLogo
+{
+	margin-top:10%;
+	margin-bottom:0%;
+	width: 150px;
+}
 }
